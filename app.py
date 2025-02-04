@@ -34,7 +34,7 @@ except locale.Error:
 # --------------------------------------------------------------------------------
 # CREDENCIALES DE SERVICIO
 # --------------------------------------------------------------------------------
-SERVICE_ACCOUNT_INFO = st.secrets["Google"]["SERVICE_ACCOUNT_INFO"]
+SERVICE_ACCOUNT_INFO = st.secrets["google"]
 
 # --------------------------------------------------------------------------------
 # CONFIGURACIÓN DE STREAMLIT
