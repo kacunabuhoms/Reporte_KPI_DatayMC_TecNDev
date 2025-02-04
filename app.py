@@ -969,6 +969,7 @@ with tab2:
         if not df_r2.empty:
             responsables_df_dict2[resp] = preparar_datos_para_reporte(df_r2)
 
+
     # Crear contenedor para el botón de descarga de TecNDev
     tecndev_container = st.empty()
 
